@@ -45,8 +45,7 @@ margin: 0%;
     text-align: center;
     padding: 100px 10%;
     background-repeat: no-repeat;
-    background-position: center;
-    
+    background-position: center;    
     }
 
 .hero h1 {
@@ -97,20 +96,34 @@ margin: 0%;
     text-align: center;
     font-size: 30px;
 }
-
 .main2{
     font-size: 15px;
 }
 
-
-.pillar {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 25px;
+h3{
+    font-size: ;
 }
 
-.card {
+h3 {
+    font-size: 44px;
+    line-height: 1.04;
+    margin: 10px 0 12px;
+}
+
+
+.pillar {
     
+    
+    background: rgba(255, 255, 255, 0.12);
+    padding: 6px 12px;
+    border-radius: 999px;
+    margin-bottom: 18px;
+    gap: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    }
+
+.card {
     padding: 25px;
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.05);
@@ -126,6 +139,47 @@ justify-content: center;
 align-items: center;
 gap: 16;
 padding: 24px;
+}
 
+.solution{
+    display: flex;
+    display: inline block;
+    padding-bottom: 150px;
+    gap: 15px;
+    
+    
+}
+.solution1{
+width: 600px;
+height: 300px;
 
+}
+
+.solution2{
+
+    width: 1300px;
+    height: 400px;
+    padding-top: 160px;
+    
+}
+
+.social{
+
+     display: flex;
+    background-color: darkcyan;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 120px;
+    align-items: flex-end;
+
+}
+.end{
+    height: 100px;
+    padding: 40px;
+    text-align: center;
+}
+.last {
+    padding: 50px 10%;
+    text-align: center;
+    font-size: 30px;
 }
